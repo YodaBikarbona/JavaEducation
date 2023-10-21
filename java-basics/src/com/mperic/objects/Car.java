@@ -1,6 +1,6 @@
 package com.mperic.objects;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle implements IVehicle {
 
     private String model;
     private float engineCC;
@@ -32,6 +32,11 @@ public class Car extends Vehicle {
 
     public void setRegistrationPlate(RegistrationPlate registrationPlate) {
         this.registrationPlate = registrationPlate;
+    }
+
+    @Override
+    public void startUp(int i) {
+        System.out.println("Car is starting up: " + i);
     }
 
     @Override
