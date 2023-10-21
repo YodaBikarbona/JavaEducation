@@ -12,6 +12,7 @@ public class Main {
         Vehicle car = new Car(2023);
 
 
+
     }
 }
 

@@ -1,6 +1,6 @@
 package com.mperic.objects;
 
-public class Vehicle {
+public abstract class Vehicle {
 
     private final String name;
     private final int year;
