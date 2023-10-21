@@ -9,5 +9,4 @@ public class Variables {
     float f = 1.1f;
     double d = 1.2d;
     int[] arr = new int[] {1,2,4};
-
 }
